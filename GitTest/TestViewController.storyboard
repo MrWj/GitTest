@@ -16,7 +16,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="修改文字" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EQh-tr-p8a">
-                                <rect key="frame" x="193" y="437.5" width="28" height="21"/>
+                                <rect key="frame" x="172.5" y="437.5" width="69.5" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -27,9 +27,15 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ecv-wT-aJS">
+                                <rect key="frame" x="184" y="304" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="ecv-wT-aJS" firstAttribute="centerX" secondItem="Z5s-Z0-ZNh" secondAttribute="centerX" id="53R-ak-aUF"/>
+                            <constraint firstItem="btk-uT-6mo" firstAttribute="top" secondItem="ecv-wT-aJS" secondAttribute="bottom" constant="53" id="Emz-Pc-LCO"/>
                             <constraint firstItem="btk-uT-6mo" firstAttribute="centerX" secondItem="Z5s-Z0-ZNh" secondAttribute="centerX" id="FIk-aA-66E"/>
                             <constraint firstItem="EQh-tr-p8a" firstAttribute="top" secondItem="btk-uT-6mo" secondAttribute="bottom" constant="29.5" id="b64-aA-u06"/>
                             <constraint firstItem="EQh-tr-p8a" firstAttribute="centerY" secondItem="Z5s-Z0-ZNh" secondAttribute="centerY" id="bK3-XD-Phu"/>
