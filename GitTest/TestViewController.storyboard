@@ -31,14 +31,21 @@
                                 <rect key="frame" x="184" y="304" width="46" height="30"/>
                                 <state key="normal" title="Button"/>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="gLb-t7-Abu">
+                                <rect key="frame" x="99" y="529" width="240" height="128"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="ecv-wT-aJS" firstAttribute="centerX" secondItem="Z5s-Z0-ZNh" secondAttribute="centerX" id="53R-ak-aUF"/>
                             <constraint firstItem="btk-uT-6mo" firstAttribute="top" secondItem="ecv-wT-aJS" secondAttribute="bottom" constant="53" id="Emz-Pc-LCO"/>
+                            <constraint firstItem="Sxj-J4-9uQ" firstAttribute="bottom" secondItem="gLb-t7-Abu" secondAttribute="bottom" constant="205" id="4Yh-Dt-ZHe"/>
                             <constraint firstItem="btk-uT-6mo" firstAttribute="centerX" secondItem="Z5s-Z0-ZNh" secondAttribute="centerX" id="FIk-aA-66E"/>
+                            <constraint firstItem="gLb-t7-Abu" firstAttribute="top" secondItem="EQh-tr-p8a" secondAttribute="bottom" constant="70.5" id="YZA-H5-lgy"/>
                             <constraint firstItem="EQh-tr-p8a" firstAttribute="top" secondItem="btk-uT-6mo" secondAttribute="bottom" constant="29.5" id="b64-aA-u06"/>
                             <constraint firstItem="EQh-tr-p8a" firstAttribute="centerY" secondItem="Z5s-Z0-ZNh" secondAttribute="centerY" id="bK3-XD-Phu"/>
+                            <constraint firstItem="gLb-t7-Abu" firstAttribute="leading" secondItem="Sxj-J4-9uQ" secondAttribute="leading" constant="99" id="hZ7-ox-g3n"/>
+                            <constraint firstItem="Sxj-J4-9uQ" firstAttribute="trailing" secondItem="gLb-t7-Abu" secondAttribute="trailing" constant="75" id="rXj-YV-iyd"/>
                             <constraint firstItem="EQh-tr-p8a" firstAttribute="centerX" secondItem="Z5s-Z0-ZNh" secondAttribute="centerX" id="rxB-FV-bzz"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Sxj-J4-9uQ"/>
