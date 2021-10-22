@@ -88,3 +88,18 @@ fastlane/test_output
 # https://github.com/johnno1962/injectionforxcode
 
 iOSInjectionProject/
+打断点/.gitignore
+打断点/README.md
+打断点/GitTest/AppDelegate.swift
+打断点/GitTest/ContentView.swift
+打断点/GitTest/Info.plist
+打断点/GitTest/SceneDelegate.swift
+打断点/GitTest/TestViewController.storyboard
+打断点/GitTest/TestViewController.swift
+打断点/GitTest.xcodeproj/project.pbxproj
+打断点/GitTest.xcodeproj/project.xcworkspace/contents.xcworkspacedata
+打断点/GitTest.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+打断点/GitTest/Assets.xcassets/Contents.json
+打断点/GitTest/Assets.xcassets/AppIcon.appiconset/Contents.json
+打断点/GitTest/Base.lproj/LaunchScreen.storyboard
+打断点/GitTest/Preview Content/Preview Assets.xcassets/Contents.json
